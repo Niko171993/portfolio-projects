@@ -1,0 +1,19 @@
+/* Disable pointer events */
+.bi-file-plus-fill,
+.bi-pencil-square,
+.bi-trash-fill {
+    pointer-events: none;
+}
+
+.page-sport {
+    background-color: hsla(36, 100%, 50%, 0.3);
+}
+
+.page-medicine {
+    background-color: hsla(66, 70%, 54%, 0.3);
+}
+
+.page-culture {
+    background-color: hsla(174, 100%, 29%, 0.3);
+}
+

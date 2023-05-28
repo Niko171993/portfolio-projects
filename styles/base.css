@@ -1,0 +1,25 @@
+.portfolio-body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.portfolio-description {
+    text-align: justify;
+}
+
+[data-row="portfolio"] {
+    position: relative;
+}
+
+[data-row="portfolio"]::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, hsla(0, 0%, 100%, 0),  hsla(0, 0%, 100%, 1),  hsla(0, 0%, 100%, 0));
+}
+
+[data-row="portfolio"]:last-child:after {
+    background-image: linear-gradient(to right, hsla(0, 0%, 100%, 0),  hsla(0, 0%, 100%, 0),  hsla(0, 0%, 100%, 0));
+}

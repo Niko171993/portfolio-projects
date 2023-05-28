@@ -1,0 +1,10 @@
+{
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "cities": ["Kyiv", "Odessa", "Lviv"],
+    "population": 4000000,
+    "area": "60 000 km2",
+    "language": "Ukrainian",
+    "currency": "UAH",
+    "isEurope": true
+}

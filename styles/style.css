@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+@import url('config.css');
+@import url('base.css');
+
+.remove {
+    list-style: none ;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": "l6th7uwoce8g0b6nl0k",
+      "title": "Asperiores ut offici",
+      "description": "Quam error sit sint"
+    },
+    {
+      "id": "l6th8mb4jq47me1qjpl",
+      "title": "Dignissimos beatae p",
+      "description": "Cupidatat dolor reru"
+    },
+    {
+      "id": "l6thaa8fktqtgc9u8fk",
+      "title": "Quo cupidatat eligen",
+      "description": "Tempore ab et exerc"
+    },
+    {
+      "id": "l6z3tgnivvz7fxoiw8m",
+      "title": "Amet ipsam deserunt",
+      "description": "Quas tempore vel ex"
+    },
+    {
+      "id": "l6z3tkbacytxi9jj3m",
+      "title": "Nihil ullam ut ut sa",
+      "description": "Aliquip ea vel facer"
+    },
+    {
+      "id": "l6z3tnhq7lb7vgpim3x",
+      "title": "Voluptates ea dolore",
+      "description": "Et voluptatem Aliqu"
+    }
+  ],
+  "comments": [
+    {
+      "id": "l6thad53svcj4xla0lq",
+      "comment": "Non sunt dolorum ad",
+      "postId": "l6th8mb4jq47me1qjpl"
+    }
+  ]
+}

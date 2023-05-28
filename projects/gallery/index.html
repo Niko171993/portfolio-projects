@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles/style.css" rel="stylesheet"/>
+
+    <title> Gallery </title>
+  </head>
+  <body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-2">
+                <button class="btn btn-outline-success" id="add-gallery-button">Add Gallery</button>
+            </div>
+        </div>
+        <div class="row" data-row="gallery" id="gallery-list">
+        </div>
+    </div>
+
+    
+  <!--GALLERY-FORM-MODAL-->
+  <!-- Modal -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="gallery-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="gallery-modal-label">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form id="gallery-form">
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="title" />
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--IMAGE-FORM-MODAL-->
+  <!-- Modal -->
+  <div class="modal fade" id="image-modal" tabindex="-1" aria-labelledby="image-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="image-modal-label">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form id="image-form">
+                <div class="mb-3">
+                  <label for="image" class="form-label">Default file input example</label>
+                  <input class="form-control" type="file" name="image">
+                </div>
+                <div class="mb-3">
+                  <input type="hidden" class="form-control" name="galleryId" />
+                  <input type="hidden" class="form-control" name="src" />
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="scripts/app.js"></script>
+    <script type="module">
+      import {addImage} from './scripts/functions.js'
+      window.addImage = addImage
+    </script>
+  </body>
+</html>
