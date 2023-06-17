@@ -1,8 +1,12 @@
 body {
-    min-height: 100vh;
-    font-family: var(--default-font);
+  min-height: 100vh;
+  font-family: var(--default-font);
 }
 
 :root {
-    --default-font: 'Source Serif Pro', serif;
+  --default-font: "Source Serif Pro", serif;
+}
+
+.row {
+  --bs-gutter-x: 0;
 }
